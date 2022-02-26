@@ -1,5 +1,4 @@
-def printGeneration(aGeneration)
-{
+def printGeneration(aGeneration):
     myprintString = ""
     for i in aGeneration:
         if i == True:
@@ -7,4 +6,3 @@ def printGeneration(aGeneration)
         else:
             myprintString += " "
     print(myprintString)
-}
